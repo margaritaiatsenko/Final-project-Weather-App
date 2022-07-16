@@ -47,8 +47,11 @@ small {
   font-size: 10px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .weather-temperature img {
-  margin-right: 5px;
   height: 90px;
   width: 90px;
 }
@@ -60,6 +63,7 @@ small {
   font-weight: 400;
   position: relative;
   top: 15px;
+  padding-left: -20px;
 }
 
 .weather-temperature #degree {
@@ -68,6 +72,16 @@ small {
   font-size: 16px;
   top: -15px;
 }
+
+.weather-temperature .active {
+  color: #44a5f5;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
 .second-block {
   position: relative;
   color: #44a5f5;
