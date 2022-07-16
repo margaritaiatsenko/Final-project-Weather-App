@@ -25,17 +25,29 @@
           <div class="overview">
             <h1 id="city">Kyiv</h1>
             <ul>
-              <li>Last updated: <span id="date">Saturday 17:17</span></li>
+              <li id="last">
+                Last updated: <span id="date">Saturday 17:17</span>
+              </li>
               <li id="description">Sunny</li>
             </ul>
+
             <div class="row">
               <div class="col-6">
-                <span id="weather-emoji">☀️</span>
-                <span id="temperature">21</span>
-                <span id="degree">°C | <a href="#">°F</a></span>
+                <div class="clearfix weather-temperature">
+                  <img
+                    src="http://openweathermap.org/img/wn/10d@2x.png"
+                    alt="Clear"
+                    id="icon"
+                    class="float-left"
+                  />
+
+                  <span id="temperature">21</span>
+                  <span id="degree">°C | <a href="#">°F</a></span>
+                </div>
               </div>
+
               <div class="col-6">
-                <ur>
+                <ur class="second-block">
                   <li>Humidity: <span id="humidity">77</span>%</li>
                   <li>Wind: <span id="wind">8</span>km/h</li>
                 </ur>
