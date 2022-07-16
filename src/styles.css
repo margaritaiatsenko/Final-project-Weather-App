@@ -4,6 +4,8 @@
 }
 .weather-app-wrapper {
   padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   border: 1px solid #dadde1;
   border-radius: 10px;
   font-family: "Comic Neue", cursive;
@@ -12,6 +14,7 @@
   color: #016fc5;
   font-size: 40px;
   font-weight: 600;
+  padding-top: 10px;
 }
 #date {
   color: #016fc5;
