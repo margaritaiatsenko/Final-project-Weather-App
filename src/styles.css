@@ -1,6 +1,8 @@
-.app-wrapper {
+.weather-app {
   max-width: 600px;
   margin: 0 auto;
+}
+.weather-app-wrapper {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 10px;
@@ -30,4 +32,20 @@ ul {
 }
 li {
   list-style: none;
+}
+small {
+  font-size: 10px;
+}
+#weather-emoji {
+  font-size: 60px;
+}
+#temperature {
+  font-size: 60px;
+  color: #44a5f5;
+}
+#degree {
+  color: #44a5f5;
+  float: right;
+  padding-top: 19px;
+  padding-right: 100px;
 }

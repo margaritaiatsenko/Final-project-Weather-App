@@ -19,32 +19,38 @@
   </head>
   <body>
     <div class="container">
-      <div class="app-wrapper">
-        <div class="overview">
-          <h1 id="city">New York</h1>
-          <ul>
-            <li id="date">Saturday 17:17</li>
-            <li id="description">Sunny</li>
-          </ul>
-          <div class="row">
-            <div class="col-6">☀️ 21 °C | °F</div>
-            <div class="col-6">
-              <ur>
-                <li>Humidity: 77%</li>
-                <li>Wind 8km/h</li>
-              </ur>
+      <div class="weather-app">
+        <div class="weather-app-wrapper">
+          <div class="overview">
+            <h1 id="city">Kyiv</h1>
+            <ul>
+              <li id="date">Saturday 17:17</li>
+              <li id="description">Sunny</li>
+            </ul>
+            <div class="row">
+              <div class="col-6">
+                <span id="weather-emoji">☀️</span>
+                <span id="temperature">21</span>
+                <span id="degree">°C | <a href="#">°F</a></span>
+              </div>
+              <div class="col-6">
+                <ur>
+                  <li>Humidity: 77%</li>
+                  <li>Wind 8km/h</li>
+                </ur>
+              </div>
             </div>
           </div>
         </div>
+        <small>
+          <a
+            href="https://github.com/margaritaiatsenko/Final-project-Weather-App"
+            target="_blank"
+            >Open-source code</a
+          >
+          by Margo
+        </small>
       </div>
-      <small>
-        <a
-          href="https://github.com/margaritaiatsenko/Final-project-Weather-App"
-          target="_blank"
-          >Open-source code</a
-        >
-        by Margo
-      </small>
     </div>
     <script src="src/script.js"></script>
   </body>
