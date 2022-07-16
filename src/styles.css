@@ -84,6 +84,23 @@ a {
 
 .second-block {
   position: relative;
-  color: #44a5f5;
+  color: #7c7c7c;
   top: 15px;
+}
+
+.weather-forecast {
+  margin-top: 30px;
+  text-align: center;
+  color: #016fc5;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+}
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
+.weather-forecast-temp-min {
+  opacity: 0.6;
 }
