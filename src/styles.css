@@ -32,6 +32,7 @@ ul {
 }
 li {
   list-style: none;
+  text-transform: capitalize;
 }
 small {
   font-size: 10px;
@@ -44,8 +45,9 @@ small {
   color: #44a5f5;
 }
 #degree {
+  position: relative;
   color: #44a5f5;
   float: right;
   padding-top: 19px;
-  padding-right: 100px;
+  padding-right: 80px;
 }
