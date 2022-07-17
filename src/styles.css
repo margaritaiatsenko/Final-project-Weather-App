@@ -1,3 +1,7 @@
+body {
+  background-color: #f0fbff;
+}
+
 .weather-app {
   max-width: 600px;
   margin: 0 auto;
@@ -9,6 +13,8 @@
   border: 1px solid #dadde1;
   border-radius: 10px;
   font-family: "Comic Neue", cursive;
+  background-color: white;
+  margin-top: 20px;
 }
 #city {
   color: #016fc5;
@@ -103,4 +109,12 @@ a {
 
 .weather-forecast-temp-min {
   opacity: 0.6;
+}
+
+.weather-app-wrapper .btn-primary {
+  background-color: #6eaff7;
+  border-color: #6eaff7;
+}
+#source-link {
+  color: #6eaff7;
 }
