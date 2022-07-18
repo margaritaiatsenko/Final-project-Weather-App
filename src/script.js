@@ -136,4 +136,7 @@ fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
+let cel = document.querySelector("#search-form");
+form.addEventListener("submit", displayCelsiusTemperature);
+
 search("Kyiv");
